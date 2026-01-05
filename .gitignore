@@ -1,0 +1,54 @@
+# Build outputs
+Debug/
+Release/
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.d
+*.su
+*.cyclo
+
+# IDE files
+.cproject
+.project
+.settings/
+*.launch
+.vscode/
+*.swp
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Generated model files (keep in repo once trained)
+# Uncomment to exclude:
+# *.tflite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# TensorFlow/Keras
+saved_model/
+*.pb
+
+# UART logs
+uart_log.txt
+uart_*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node modules (if using any web tools)
+node_modules/
